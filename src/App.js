@@ -1,10 +1,11 @@
 import React from 'react';
-import Landpage from './pages/landpage';
 
-function App() {
+import Home from './pages/Home';
+
+const App = () => {
   return (
     <>
-      <Landpage/>
+      <Home />
     </>
   );
 }
